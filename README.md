@@ -54,13 +54,21 @@ A divisão de trabalho está no relatório final (PDF).
 | Arquivo | Conteúdo |
 |---|---|
 | `sprint4-avaliacao-chargegrid.ipynb` | Notebook completo (golden dataset, agentes, juízes, resultados), com as saídas do run completo |
-| `respostas.json` / `respostas.csv` | Respostas das 3 versões para os 36 casos × 2 runs |
-| `avaliacoes.json` / `avaliacoes.csv` | Nota e motivo de cada juiz, por métrica |
-| `tabela_resultados.md` | Tabela de resultados por versão e por métrica |
-| `grafico_resultados.png` | Gráfico de desempenho por versão e métrica |
-| `validacao_amostra.csv` | Amostra de 20 respostas usada na validação dos juízes |
+| `respostas.json` | Respostas das 3 versões para os 36 casos × 2 runs (216 respostas) |
+| `avaliacoes.json` | Nota e motivo de cada juiz, por métrica (1.236 avaliações) |
 | `relatorio_final.pdf` | Relatório final da Sprint |
-| `evidencias/` | Material usado no relatório: arquivos da rodada 1 (juiz Llama 3.1) e do teste rápido de 6 casos |
+| `entrega.txt` | Texto da entrega |
+| `evidencias/` | Arquivos finais derivados dos JSONs (ver abaixo) |
+
+### Conteúdo de `evidencias/`
+
+| Arquivo | Conteúdo |
+|---|---|
+| `evidencias/respostas.csv` | Respostas das 3 versões para os 36 casos × 2 runs, em CSV |
+| `evidencias/avaliacoes.csv` | Nota e motivo de cada juiz, por métrica, em CSV |
+| `evidencias/tabela_resultados.md` | Tabela de resultados por versão e por métrica |
+| `evidencias/grafico_resultados.png` | Gráfico de desempenho por versão e métrica |
+| `evidencias/validacao_amostra.csv` | Amostra de 20 respostas usada na validação dos juízes |
 
 ## Como reproduzir
 
@@ -77,5 +85,5 @@ O notebook foi feito para o **Kaggle** (GPU T4 ou P100, Internet ligada). Os mod
 
 ## Observações
 
-- O Juiz A da primeira rodada era o Llama 3.1 8B. Ele foi trocado pelo Gemma3 12B porque zerava cerca de 30% das avaliações e concordava pouco com o manual da Sprint 3. Os arquivos dessa rodada estão na pasta `evidencias/`.
+- O Juiz A da primeira rodada era o Llama 3.1 8B. Ele foi trocado pelo Gemma3 12B porque zerava cerca de 30% das avaliações e concordava pouco com o manual da Sprint 3. Os arquivos dessa rodada e do teste rápido de 6 casos **não estão neste repositório**; a justificativa da troca está descrita na seção 3.3 do `relatorio_final.pdf`.
 - Os textos de classificação e de hipóteses do notebook foram escritos a partir da saída do run completo; os números impressos pelas células são a fonte.
