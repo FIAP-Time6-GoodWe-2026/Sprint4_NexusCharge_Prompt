@@ -1,0 +1,11 @@
+Sprint 04 - ChargeGrid Assistant (EV Challenge - GoodWe) - Prompt and Artificial Intelligence
+
+Nome | RM | Turma
+Alan Junio Araujo de Souza | 574112 | 1CCPZ
+Arthur Vettorazzo de Souza | 569445 | 1CCPZ
+Brayan Barbosa Dos Santos | 573682 | 1CCPZ
+Giovanne Gomes Petenuci | 574091 | 1CCPZ
+Gustavo Zibini Belizario | 561376 | 1CCPZ
+Luiz Otávio Brito Freixo | 569977 | 1CCPZ
+
+Repositório: https://github.com/FIAP-Time6-GoodWe-2026/Sprint4_NexusCharge_Prompt.git
